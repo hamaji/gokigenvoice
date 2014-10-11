@@ -55,7 +55,7 @@
         // インスタンス生成
         UILocalNotification *notification = [[UILocalNotification alloc] init];
         // 5分後に通知をする（設定は秒単位）
-        notification.fireDate = [NSDate :(30 * 1)];
+        //notification.fireDate = [NSDate :(30 * 1)];
         // タイムゾーンの設定
         notification.timeZone = [NSTimeZone defaultTimeZone];
         // 通知時に表示させるメッセージ内容
