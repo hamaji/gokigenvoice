@@ -7,9 +7,15 @@
 //
 
 #import "ViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController ()
+@interface ViewController (){
+    CGPoint points[25];
+    int level[5];
+    UIView *chart;
 
+    CAShapeLayer *redline;
+}
 @end
 
 @implementation ViewController
@@ -17,7 +23,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self setupPoints];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +34,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)setupPoints
+{
+    
+}
 @end

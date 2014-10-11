@@ -43,4 +43,31 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
+    // アプリ起動中(フォアグラウンド)に通知が届いた場合
+    if(application.applicationState == UIApplicationStateActive) {
+        // ここに処理を書く
+    }
+    
+    // アプリがバックグラウンドにある状態で通知が届いた場合
+    if(application.applicationState == UIApplicationStateInactive) {
+        // ここに処理を書く
+        // インスタンス生成
+        UILocalNotification *notification = [[UILocalNotification alloc] init];
+        // 5分後に通知をする（設定は秒単位）
+        notification.fireDate = [NSDate :(30 * 1)];
+        // タイムゾーンの設定
+        notification.timeZone = [NSTimeZone defaultTimeZone];
+        // 通知時に表示させるメッセージ内容
+        notification.alertBody = @"5分経ちました";
+        // 通知に鳴る音の設定
+        notification.soundName = UILocalNotificationDefaultSoundName;
+        
+        // 通知の登録
+        [[UIApplication sharedApplication] scheduleLocalNotification:notification];
+    }
+    
+    // 通知領域から削除する
+    [[UIApplication sharedApplication] cancelLocalNotification:notification];
+}
 @end

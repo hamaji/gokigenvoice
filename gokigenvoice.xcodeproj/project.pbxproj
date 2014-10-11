@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5924101819B2FEB90007534E /* mypage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5924101719B2FEB90007534E /* mypage.m */; };
+		5924101B19B306500007534E /* typeCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5924101A19B306500007534E /* typeCheck.m */; };
 		59347E811956B5300012F7DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59347E801956B5300012F7DD /* Foundation.framework */; };
 		59347E831956B5300012F7DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59347E821956B5300012F7DD /* CoreGraphics.framework */; };
 		59347E851956B5300012F7DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59347E841956B5300012F7DD /* UIKit.framework */; };
@@ -21,6 +23,13 @@
 		59347EA21956B5300012F7DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59347E841956B5300012F7DD /* UIKit.framework */; };
 		59347EAA1956B5300012F7DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59347EA81956B5300012F7DD /* InfoPlist.strings */; };
 		59347EAC1956B5300012F7DD /* gokigenvoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59347EAB1956B5300012F7DD /* gokigenvoiceTests.m */; };
+		59347EB61956B5500012F7DD /* titile.png in Resources */ = {isa = PBXBuildFile; fileRef = 59347EB51956B5500012F7DD /* titile.png */; };
+		5936D21219E11DFA005CB58F /* selectType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936D21119E11DFA005CB58F /* selectType.m */; };
+		599AA70E19DB059200B72B4B /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 599AA70D19DB059200B72B4B /* wood.png */; };
+		599AA71019DB06E200B72B4B /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 599AA70F19DB06E200B72B4B /* fire.png */; };
+		599AA71219DB072A00B72B4B /* tuchi.png in Resources */ = {isa = PBXBuildFile; fileRef = 599AA71119DB072A00B72B4B /* tuchi.png */; };
+		599AA71419DB078800B72B4B /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 599AA71319DB078800B72B4B /* gold.png */; };
+		599AA71619DB079000B72B4B /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = 599AA71519DB079000B72B4B /* water.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5924101619B2FEB90007534E /* mypage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mypage.h; sourceTree = "<group>"; };
+		5924101719B2FEB90007534E /* mypage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mypage.m; sourceTree = "<group>"; };
+		5924101919B306500007534E /* typeCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typeCheck.h; sourceTree = "<group>"; };
+		5924101A19B306500007534E /* typeCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = typeCheck.m; sourceTree = "<group>"; };
 		59347E7D1956B5300012F7DD /* gokigenvoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gokigenvoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59347E801956B5300012F7DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		59347E821956B5300012F7DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +66,14 @@
 		59347EA71956B5300012F7DD /* gokigenvoiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gokigenvoiceTests-Info.plist"; sourceTree = "<group>"; };
 		59347EA91956B5300012F7DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59347EAB1956B5300012F7DD /* gokigenvoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gokigenvoiceTests.m; sourceTree = "<group>"; };
+		59347EB51956B5500012F7DD /* titile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titile.png; sourceTree = "<group>"; };
+		5936D21019E11DFA005CB58F /* selectType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectType.h; sourceTree = "<group>"; };
+		5936D21119E11DFA005CB58F /* selectType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectType.m; sourceTree = "<group>"; };
+		599AA70D19DB059200B72B4B /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		599AA70F19DB06E200B72B4B /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		599AA71119DB072A00B72B4B /* tuchi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuchi.png; sourceTree = "<group>"; };
+		599AA71319DB078800B72B4B /* gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold.png; sourceTree = "<group>"; };
+		599AA71519DB079000B72B4B /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +136,12 @@
 				59347E8F1956B5300012F7DD /* AppDelegate.h */,
 				59347E901956B5300012F7DD /* AppDelegate.m */,
 				59347E921956B5300012F7DD /* Main.storyboard */,
+				5924101919B306500007534E /* typeCheck.h */,
+				5924101A19B306500007534E /* typeCheck.m */,
+				5924101619B2FEB90007534E /* mypage.h */,
+				5924101719B2FEB90007534E /* mypage.m */,
+				5936D21019E11DFA005CB58F /* selectType.h */,
+				5936D21119E11DFA005CB58F /* selectType.m */,
 				59347E951956B5300012F7DD /* ViewController.h */,
 				59347E961956B5300012F7DD /* ViewController.m */,
 				59347E981956B5300012F7DD /* Images.xcassets */,
@@ -126,6 +153,12 @@
 		59347E871956B5300012F7DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				599AA70D19DB059200B72B4B /* wood.png */,
+				599AA70F19DB06E200B72B4B /* fire.png */,
+				599AA71319DB078800B72B4B /* gold.png */,
+				599AA71519DB079000B72B4B /* water.png */,
+				599AA71119DB072A00B72B4B /* tuchi.png */,
+				59347EB51956B5500012F7DD /* titile.png */,
 				59347E881956B5300012F7DD /* gokigenvoice-Info.plist */,
 				59347E891956B5300012F7DD /* InfoPlist.strings */,
 				59347E8C1956B5300012F7DD /* main.m */,
@@ -199,6 +232,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = myname;
 				TargetAttributes = {
+					59347E7C1956B5300012F7DD = {
+						DevelopmentTeam = DS9AC9GQ9E;
+					};
 					59347E9D1956B5300012F7DD = {
 						TestTargetID = 59347E7C1956B5300012F7DD;
 					};
@@ -228,9 +264,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59347EB61956B5500012F7DD /* titile.png in Resources */,
+				599AA71419DB078800B72B4B /* gold.png in Resources */,
+				599AA71619DB079000B72B4B /* water.png in Resources */,
+				599AA70E19DB059200B72B4B /* wood.png in Resources */,
 				59347E991956B5300012F7DD /* Images.xcassets in Resources */,
 				59347E8B1956B5300012F7DD /* InfoPlist.strings in Resources */,
 				59347E941956B5300012F7DD /* Main.storyboard in Resources */,
+				599AA71219DB072A00B72B4B /* tuchi.png in Resources */,
+				599AA71019DB06E200B72B4B /* fire.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5924101B19B306500007534E /* typeCheck.m in Sources */,
+				5936D21219E11DFA005CB58F /* selectType.m in Sources */,
 				59347E971956B5300012F7DD /* ViewController.m in Sources */,
 				59347E911956B5300012F7DD /* AppDelegate.m in Sources */,
+				5924101819B2FEB90007534E /* mypage.m in Sources */,
 				59347E8D1956B5300012F7DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +362,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: kohei hamaji (73N48SRJSM)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -355,7 +401,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: kohei hamaji (73N48SRJSM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: kohei hamaji (73N48SRJSM)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -374,12 +421,15 @@
 		59347EB01956B5300012F7DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "gokigenvoice/gokigenvoice-Prefix.pch";
 				INFOPLIST_FILE = "gokigenvoice/gokigenvoice-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -387,12 +437,15 @@
 		59347EB11956B5300012F7DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "gokigenvoice/gokigenvoice-Prefix.pch";
 				INFOPLIST_FILE = "gokigenvoice/gokigenvoice-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +509,7 @@
 				59347EB11956B5300012F7DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59347EB21956B5300012F7DD /* Build configuration list for PBXNativeTarget "gokigenvoiceTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +518,7 @@
 				59347EB41956B5300012F7DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
