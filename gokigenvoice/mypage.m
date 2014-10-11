@@ -50,18 +50,12 @@
     
     //成績を持ってくる
     AppDelegate* appDelegate = [[UIApplication sharedApplication] delegate];
-    //level[0]=appDelegate.woodPoint;
-    //level[1]=appDelegate.firePoint;
-    //level[2]=appDelegate.tuchiPoint;
-    //level[3]=appDelegate.goldPoint;
-    //level[4]=appDelegate.waterPoint;
-    
-    level[0]=7;
-    level[1]=7;
-    level[2]=7;
-    level[3]=7;
-    level[4]=7;
-}
+    level[0]=appDelegate.woodPoint;
+    level[1]=appDelegate.firePoint;
+    level[2]=appDelegate.tuchiPoint;
+    level[3]=appDelegate.goldPoint;
+    level[4]=appDelegate.waterPoint;
+    }
 
 -(void)setChartFrame
 {

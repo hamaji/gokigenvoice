@@ -113,16 +113,6 @@
         self.btnYes.hidden =YES;
         self.btnNo.hidden =YES;
         
-        if(woodPoint >5) woodPoint=5;
-        if(firePoint >5) firePoint=5;
-        if(tuchiPoint >5) tuchiPoint=5;
-        if(goldPoint >5) goldPoint=5;
-        if(waterPoint >5) waterPoint=5;
-        if(woodPoint <1) woodPoint=1;
-        if(firePoint <1) firePoint=1;
-        if(tuchiPoint <1) tuchiPoint=1;
-        if(goldPoint <1) goldPoint=1;
-        if(waterPoint <1) waterPoint=1;
         appDelegate.woodPoint = woodPoint;
         appDelegate.firePoint = firePoint;
         appDelegate.tuchiPoint= tuchiPoint;
