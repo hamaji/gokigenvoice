@@ -12,7 +12,7 @@
 
 @interface mypage (){
     
-    CGPoint points[25];
+    CGPoint points[35];
     int level[5];
     UIView *chart;
     
@@ -24,14 +24,6 @@
 @end
 
 @implementation mypage
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
@@ -46,19 +38,29 @@
 
 
 -(void)setupPoints{
-    for(int i=0;i<25;i++)
+    
+    //グラフのポイント点を作成
+    for(int i=0;i<35;i++)
     {
-        float angle =(i/5)*(M_PI/2.5)-M_PI/2.0;
-        float length =(i%5+1)*30;
+        float angle =(i/7)*(M_PI/2.5)-M_PI/2.0;
+        float length =(i%7+1)*20;
+        
         points[i] = CGPointMake(length*cos(angle)+160,length*sin(angle)+160);
     }
     
+    //成績を持ってくる
     AppDelegate* appDelegate = [[UIApplication sharedApplication] delegate];
-    level[0]=appDelegate.woodPoint;
-    level[1]=appDelegate.firePoint;
-    level[2]=appDelegate.tuchiPoint;
-    level[3]=appDelegate.goldPoint;
-    level[4]=appDelegate.waterPoint;
+    //level[0]=appDelegate.woodPoint;
+    //level[1]=appDelegate.firePoint;
+    //level[2]=appDelegate.tuchiPoint;
+    //level[3]=appDelegate.goldPoint;
+    //level[4]=appDelegate.waterPoint;
+    
+    level[0]=7;
+    level[1]=7;
+    level[2]=7;
+    level[3]=7;
+    level[4]=7;
 }
 
 -(void)setChartFrame
@@ -69,7 +71,7 @@
     chart.layer.borderWidth =10;
     [self.view addSubview:chart];
     
-    for(int i=0;i<25;i++)
+    for(int i=0;i<35;i++)
     {
         UIView *mark=[[UIView alloc]initWithFrame:CGRectMake(0,0,3,3)];
         mark.layer.cornerRadius=1.5;
@@ -79,19 +81,19 @@
     }
     
     UIBezierPath *outpath =[UIBezierPath bezierPath];
-    for(int i=0;i<5;i++)
+    for(int i=0;i<7;i++)
     {
         [outpath moveToPoint:points[i]];
-        [outpath addLineToPoint:points[i+5]];
-        [outpath addLineToPoint:points[i+10]];
-        [outpath addLineToPoint:points[i+15]];
-        [outpath addLineToPoint:points[i+20]];
+        [outpath addLineToPoint:points[i+7]];
+        [outpath addLineToPoint:points[i+14]];
+        [outpath addLineToPoint:points[i+21]];
+        [outpath addLineToPoint:points[i+28]];
         [outpath addLineToPoint:points[i]];
     }
     
     for(int i=0;i<5;i++){
         [outpath moveToPoint:CGPointMake(160,160)];
-        [outpath addLineToPoint:points[i*5+4]];
+        [outpath addLineToPoint:points[i*7+6]];
     }
     
     CAShapeLayer *outline = [[CAShapeLayer alloc]init];
@@ -114,10 +116,10 @@
     }
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:points[level[0]-1]];
-    [path addLineToPoint:points[level[1]+4]];
-    [path addLineToPoint:points[level[2]+9]];
-    [path addLineToPoint:points[level[3]+14]];
-    [path addLineToPoint:points[level[4]+19]];
+    [path addLineToPoint:points[level[1]+6]];
+    [path addLineToPoint:points[level[2]+13]];
+    [path addLineToPoint:points[level[3]+20]];
+    [path addLineToPoint:points[level[4]+27]];
     [path addLineToPoint:points[level[0]-1]];
     
     redline.path =path.CGPath;
