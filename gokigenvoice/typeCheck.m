@@ -103,7 +103,7 @@
     AppDelegate* appDelegate = [[UIApplication sharedApplication] delegate];
     if(questionNum !=36)
     {
-        self.lbQuetNum.text = [NSString stringWithFormat:@"第%d問", questionNum+1];
+        self.lbQuetNum.text = [NSString stringWithFormat:@"Q%d", questionNum+1];
     }
     self.questionView.text =msg[questionNum];
     if (questionNum==35)

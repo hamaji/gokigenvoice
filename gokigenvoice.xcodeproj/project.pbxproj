@@ -23,8 +23,9 @@
 		59347EA21956B5300012F7DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59347E841956B5300012F7DD /* UIKit.framework */; };
 		59347EAA1956B5300012F7DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59347EA81956B5300012F7DD /* InfoPlist.strings */; };
 		59347EAC1956B5300012F7DD /* gokigenvoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59347EAB1956B5300012F7DD /* gokigenvoiceTests.m */; };
-		59347EB61956B5500012F7DD /* titile.png in Resources */ = {isa = PBXBuildFile; fileRef = 59347EB51956B5500012F7DD /* titile.png */; };
 		5936D21219E11DFA005CB58F /* selectType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5936D21119E11DFA005CB58F /* selectType.m */; };
+		59828D4219FCCD1A005F0ED8 /* ごきげんボイス　文字ロゴ 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 59828D4119FCCD1A005F0ED8 /* ごきげんボイス　文字ロゴ 2.png */; };
+		59828D4419FCCDC4005F0ED8 /* ごきげんちゃん01 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 59828D4319FCCDC4005F0ED8 /* ごきげんちゃん01 2.png */; };
 		599AA70E19DB059200B72B4B /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 599AA70D19DB059200B72B4B /* wood.png */; };
 		599AA71019DB06E200B72B4B /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 599AA70F19DB06E200B72B4B /* fire.png */; };
 		599AA71219DB072A00B72B4B /* tuchi.png in Resources */ = {isa = PBXBuildFile; fileRef = 599AA71119DB072A00B72B4B /* tuchi.png */; };
@@ -66,9 +67,10 @@
 		59347EA71956B5300012F7DD /* gokigenvoiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gokigenvoiceTests-Info.plist"; sourceTree = "<group>"; };
 		59347EA91956B5300012F7DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59347EAB1956B5300012F7DD /* gokigenvoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gokigenvoiceTests.m; sourceTree = "<group>"; };
-		59347EB51956B5500012F7DD /* titile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titile.png; sourceTree = "<group>"; };
 		5936D21019E11DFA005CB58F /* selectType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectType.h; sourceTree = "<group>"; };
 		5936D21119E11DFA005CB58F /* selectType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectType.m; sourceTree = "<group>"; };
+		59828D4119FCCD1A005F0ED8 /* ごきげんボイス　文字ロゴ 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ごきげんボイス　文字ロゴ 2.png"; sourceTree = "<group>"; };
+		59828D4319FCCDC4005F0ED8 /* ごきげんちゃん01 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ごきげんちゃん01 2.png"; sourceTree = "<group>"; };
 		599AA70D19DB059200B72B4B /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
 		599AA70F19DB06E200B72B4B /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
 		599AA71119DB072A00B72B4B /* tuchi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuchi.png; sourceTree = "<group>"; };
@@ -157,9 +159,10 @@
 				599AA70F19DB06E200B72B4B /* fire.png */,
 				599AA71319DB078800B72B4B /* gold.png */,
 				599AA71519DB079000B72B4B /* water.png */,
+				59828D4119FCCD1A005F0ED8 /* ごきげんボイス　文字ロゴ 2.png */,
 				599AA71119DB072A00B72B4B /* tuchi.png */,
-				59347EB51956B5500012F7DD /* titile.png */,
 				59347E881956B5300012F7DD /* gokigenvoice-Info.plist */,
+				59828D4319FCCDC4005F0ED8 /* ごきげんちゃん01 2.png */,
 				59347E891956B5300012F7DD /* InfoPlist.strings */,
 				59347E8C1956B5300012F7DD /* main.m */,
 				59347E8E1956B5300012F7DD /* gokigenvoice-Prefix.pch */,
@@ -264,7 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59347EB61956B5500012F7DD /* titile.png in Resources */,
+				59828D4219FCCD1A005F0ED8 /* ごきげんボイス　文字ロゴ 2.png in Resources */,
 				599AA71419DB078800B72B4B /* gold.png in Resources */,
 				599AA71619DB079000B72B4B /* water.png in Resources */,
 				599AA70E19DB059200B72B4B /* wood.png in Resources */,
@@ -273,6 +276,7 @@
 				59347E941956B5300012F7DD /* Main.storyboard in Resources */,
 				599AA71219DB072A00B72B4B /* tuchi.png in Resources */,
 				599AA71019DB06E200B72B4B /* fire.png in Resources */,
+				59828D4419FCCDC4005F0ED8 /* ごきげんちゃん01 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

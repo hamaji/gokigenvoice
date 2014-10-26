@@ -59,11 +59,12 @@
 
 -(void)setChartFrame
 {
-    chart =[[UIView alloc]initWithFrame:CGRectMake(0,180,320,310)];
+    chart =[[UIView alloc]initWithFrame:CGRectMake(0,130,320,310)];
     chart.backgroundColor =[UIColor colorWithWhite:1.9 alpha:1];
     chart.layer.borderColor = [UIColor whiteColor].CGColor;
     chart.layer.borderWidth =10;
     [self.view addSubview:chart];
+    [self.view sendSubviewToBack:chart];
     
     for(int i=0;i<35;i++)
     {

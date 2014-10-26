@@ -9,11 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface selectType : UIViewController
-- (IBAction)tapLeaf:(id)sender;
-- (IBAction)tapFire:(id)sender;
-- (IBAction)tapTuchi:(id)sender;
-- (IBAction)tapGold:(id)sender;
-- (IBAction)tapWater:(id)sender;
-
 
 @end
