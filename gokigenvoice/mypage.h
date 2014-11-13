@@ -15,5 +15,6 @@
     int goldPoint;
     int waterPoint;
 }
+@property (weak, nonatomic) IBOutlet UILabel *presisu;
 
 @end

@@ -105,7 +105,7 @@
     {
         self.lbQuetNum.text = [NSString stringWithFormat:@"Q%d", questionNum+1];
     }
-    self.questionView.text =msg[questionNum];
+    self.questlb.text =msg[questionNum];
     if (questionNum==35)
     {
         questionNum=0;

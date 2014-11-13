@@ -170,6 +170,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="4wu-Zs-joW"/>
+                    <connections>
+                        <outlet property="presisu" destination="X1P-vI-ceO" id="NLs-gG-A6J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xvb-Cp-Kdz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -231,7 +234,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="titile.png" translatesAutoresizingMaskIntoConstraints="NO" id="CFV-kt-HPC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ごきげんちゃん01 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="CFV-kt-HPC">
                                 <rect key="frame" x="22" y="207" width="266" height="274"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="タイプ選択" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVq-6p-K0g">
@@ -282,17 +285,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4J1-vS-Jel">
-                                <rect key="frame" x="91" y="404" width="159" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="結果を見る">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="hbY-4M-zZ8" kind="push" id="0cZ-tN-kdT"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83X-8J-6h6">
                                 <rect key="frame" x="46" y="318" width="71" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
@@ -302,6 +294,23 @@
                                 </state>
                                 <connections>
                                     <action selector="tapYes:" destination="zpG-Cf-qIB" eventType="touchUpInside" id="pnC-9T-3yX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="質問" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUf-Lz-e4V">
+                                <rect key="frame" x="40" y="187" width="256" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4J1-vS-Jel">
+                                <rect key="frame" x="89" y="404" width="159" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="結果を見る">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hbY-4M-zZ8" kind="push" id="0cZ-tN-kdT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -314,6 +323,7 @@
                         <outlet property="checkResult" destination="4J1-vS-Jel" id="MFZ-ht-nXw"/>
                         <outlet property="lbQuetNum" destination="KiH-OR-9C0" id="32w-qP-KAu"/>
                         <outlet property="questionView" destination="wbt-MB-giX" id="7qC-i8-Sfj"/>
+                        <outlet property="questlb" destination="rUf-Lz-e4V" id="NcJ-SH-JBN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HcB-Sm-GGV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -342,7 +352,6 @@
     <resources>
         <image name="fire.png" width="99" height="127"/>
         <image name="gold.png" width="119" height="97"/>
-        <image name="titile.png" width="368" height="349"/>
         <image name="tuchi.png" width="123" height="111"/>
         <image name="water.png" width="114" height="141"/>
         <image name="wood.png" width="114" height="139"/>

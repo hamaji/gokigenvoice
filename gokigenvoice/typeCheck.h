@@ -20,6 +20,7 @@
 }
 - (IBAction)tapYes:(id)sender;
 - (IBAction)tapNo:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *questlb;
 @property (weak, nonatomic) IBOutlet UIButton *checkResult;
 @property (weak, nonatomic) IBOutlet UITextView *questionView;
 @property (weak, nonatomic) IBOutlet UIButton *btnYes;

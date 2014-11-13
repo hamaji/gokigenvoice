@@ -34,6 +34,10 @@
     
     [self showGraph];
     
+    int sumpoint =level[0]+level[1]+level[2]+level[3]+level[4];
+    
+    double sisuu = floor((sumpoint*100)/25);
+    self.presisu.text = [NSString stringWithFormat:@"%f ", sisuu];
 }
 
 
