@@ -30,7 +30,7 @@
     [super viewDidLoad];
     [self setupPoints];
     
-    [self setChartFrame];
+    //[self setChartFrame];
     
     [self showGraph];
     
